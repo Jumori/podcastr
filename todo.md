@@ -1,0 +1,4 @@
+- [ ] Tornar aplicação responsiva
+- [ ] Switch para modo dark
+- [ ] Criar versão PWA da aplicação utilizando o [next-pwa](https://github.com/shadowwalker/next-pwa)
+- [ ] Criar aplicação desktop utilizando [Electron](https://www.electronjs.org/)

@@ -26,7 +26,8 @@ Tabela de conteúdos
    * [Layout](#-layout)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação](#-rodando-a-aplicação-web-frontend)
+     * [Rodando o servidor](#rodando-o-servidor-backend)
+     * [Rodando a aplicação](#rodando-a-aplicação-web-frontend)
    * [Tecnologias](#-tecnologias)
    * [Autora](#-autora)
    * [Licença](#user-content--licença)
@@ -37,8 +38,8 @@ Tabela de conteúdos
 
 Podcastr - Aplicação front-end web para o seu podcast
 
-Projeto realizado durante o **NLW5** oferecido pela [Rocketseat](https://nextlevelweek.com/). 
-Esta aplicação tem como foco de estudo o desenvolvimento de uma aplicação web front-end utilizando 
+Projeto realizado durante o **NLW5** oferecido pela [Rocketseat](https://nextlevelweek.com/).
+Esta aplicação tem como foco de estudo o desenvolvimento de uma aplicação web front-end utilizando
 [React](https://reactjs.org/) e [Next.js](https://nextjs.org/).
 
 ## 🎨 Layout
@@ -51,8 +52,17 @@ O layout da aplicação está disponível no Figma:
 
 ## 🚀 Como executar o projeto
 
-Este projeto requer que o servidor back-end esteja rodando em segundo plano. No entanto, estaremos utilizando 
-uma fake API para fornecer os dados à nossa aplicação. Em um terminal, deixe rodando o fake API com:
+Este projeto requer que o servidor back-end esteja rodando em segundo plano.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/)
+
+### Rodando o servidor (Backend)
+
+Para esta aplicação, estaremos utilizando
+uma fake API para fornecer os dados. Em um terminal, deixe rodando o fake API com:
 
 ```bash
 
@@ -63,12 +73,7 @@ $ yarn server
 
 ```
 
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/)
-
-#### 🧭 Rodando a aplicação web (Frontend)
+### Rodando a aplicação web (Frontend)
 
 ```bash
 
