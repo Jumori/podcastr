@@ -1,4 +1,4 @@
-import { createContext } from 'react'
+import { createContext } from 'react';
 
 type Episode = {
   title: string;
@@ -6,7 +6,7 @@ type Episode = {
   thumbnail: string;
   duration: number;
   url: string;
-}
+};
 
 type PlayerContextData = {
   episodeList: Episode[];
@@ -15,6 +15,6 @@ type PlayerContextData = {
   play: (episode: Episode) => void;
   togglePlay: () => void;
   setPlayingState: (state: boolean) => void;
-}
+};
 
-export const PlayerContext = createContext({} as PlayerContextData)
+export const PlayerContext = createContext({} as PlayerContextData);

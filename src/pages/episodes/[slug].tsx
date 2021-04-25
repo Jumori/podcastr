@@ -30,7 +30,7 @@ export default function Episode({ episode }: EpisodeProps) {
     <div className={styles.container}>
       <div className={styles.episode}>
         <div className={styles.thumbnailContainer}>
-          <Link href="/">        
+          <Link href="/">
             <button type="button">
               <img src="/arrow-left.svg" alt="Voltar"/>
             </button>
@@ -95,7 +95,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     description: data.description,
     url: data.file.url,
   }
-  
+
   return {
     props: {
       episode,
